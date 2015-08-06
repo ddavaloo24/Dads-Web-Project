@@ -1,7 +1,7 @@
 .wrap {
     background-color: brown;
     width: 950px;
-    height: 900px;
+    height: 1050px;
     margin: auto;
 }
 .top-header {
@@ -29,10 +29,11 @@
     color: white;
     background-color: blue;
     width: 45%;
+    height: 90%;
     display: inline-block; 
     margin-right: 10px;
     margin-top: 10px;
-
+    padding-left: 5px;
 }
 
 .office-photo {
@@ -60,21 +61,24 @@
 }
 
 .body {
-    background-color: grey;
+    background-color: #A0A0A0;
 }
 
 .home-body {
     height: 57%;
     margin: auto;
     background-color: brown;
+    border: 0px;
 }
 
 #tabs {
-    width: 99.1%;
+    width: 99.3%;
     height: 98.5%;
     margin: auto;
     border-radius: 0px;
-    background-color: brown;
+    background-color: grey;;
+    border: 0;
+    position: relative;
 }
 
 .ui-tabs-vertical {
@@ -84,7 +88,7 @@
 .ui-tabs-vertical .ui-tabs-nav { 
     padding: 1px 1px 1px 1px;
     float: left;
-    width: 25%; 
+    width: 18%; 
 }   
 
 .ui-tabs-vertical .ui-tabs-nav li { 
@@ -96,7 +100,7 @@
 
 .ui-tabs-vertical .ui-tabs-nav li a { 
     display: block;
-    width: 200px;
+    width: 135px;
 }
 
 .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { 
@@ -106,8 +110,10 @@
 }
 
 .ui-tabs-vertical .ui-tabs-panel {  
-    float: right;
-    width: 66%;
+    width: 500px;
+    margin-left: 200px;
+    font-size: 16px;
+    height: 550px;
 }
 
 h1 {
@@ -123,4 +129,63 @@ h1 {
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: aqua;
+}
+#portrait1 {
+    width: 180px;
+    margin-top: -580px;
+    background-color: blue;
+    float: right;
+}
+
+#portrait2 {
+    width: 180px;
+    margin-top: -280px;
+    background-color: blue;
+    float: right;
+}
+
+#amir {
+    width: 180px;
+    height: 220px;
+}
+
+#title {
+    font-size: 167x;
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    color:white;
+    
+}
+
+#disclaimer {
+    float: left;
+    width: 180px;
+    margin-top: -350px;
+    font-size: 16px;
+    padding-left: 10px
+}
+
+#work-spacing {
+    padding-left: 12px;
+}
+
+#address2-spacing {
+    padding-left: 70px;
+}
+
+#address1-spacing {
+    padding-left: 9.0px;
+}
+
+#email-spacing {
+    padding-left: 23px;
+}
+
+#fax-spacing {
+    padding-left: 25px;
+}
+
+#cell-spacing {
+    padding-left: 22px;
 }
